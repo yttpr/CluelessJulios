@@ -1,0 +1,165 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+</PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="0Crack.png" />
+    <None Remove="1Crack.png" />
+    <None Remove="2Crack.png" />
+    <None Remove="3Crack.png" />
+    <None Remove="AchHeaven.png" />
+    <None Remove="AchOsman.png" />
+    <None Remove="CombatIconPlaceholder.png" />
+    <None Remove="CombatPlaceholder.png" />
+    <None Remove="FragileIcon.png" />
+    <None Remove="Glass.png" />
+    <None Remove="GuttedIcon.png" />
+    <None Remove="hit1back.png" />
+    <None Remove="hit1front.png" />
+    <None Remove="hit2back.png" />
+    <None Remove="hit2front.png" />
+    <None Remove="hit3back.png" />
+    <None Remove="hit3front.png" />
+    <None Remove="ICONFORTHEMOD.png" />
+    <None Remove="Julios.assetbundle" />
+    <None Remove="juliosback.png" />
+    <None Remove="juliosfront.png" />
+    <None Remove="JuliosLocked.png" />
+    <None Remove="JuliosMenu.png" />
+    <None Remove="MendCracks.png" />
+    <None Remove="MenuPlaceholder.png" />
+    <None Remove="ModIconPlaceholder.png" />
+    <None Remove="OverworldPlaceholder.png" />
+    <None Remove="PassivePlaceholder.png" />
+    <None Remove="PickyIcon.png" />
+    <None Remove="ReflectionScars.png" />
+    <None Remove="sammlerjulios.png" />
+    <None Remove="Scarf.png" />
+    <None Remove="scratches.png" />
+    <None Remove="Shards.png" />
+    <None Remove="smalljulios.png" />
+    <None Remove="TemperedIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="0Crack.png" />
+    <EmbeddedResource Include="1Crack.png" />
+    <EmbeddedResource Include="2Crack.png" />
+    <EmbeddedResource Include="3Crack.png" />
+    <EmbeddedResource Include="AchHeaven.png" />
+    <EmbeddedResource Include="AchOsman.png" />
+    <EmbeddedResource Include="CombatIconPlaceholder.png" />
+    <EmbeddedResource Include="CombatPlaceholder.png" />
+    <EmbeddedResource Include="FragileIcon.png" />
+    <EmbeddedResource Include="Glass.png" />
+    <EmbeddedResource Include="GuttedIcon.png" />
+    <EmbeddedResource Include="hit1back.png" />
+    <EmbeddedResource Include="hit1front.png" />
+    <EmbeddedResource Include="hit2back.png" />
+    <EmbeddedResource Include="hit2front.png" />
+    <EmbeddedResource Include="hit3back.png" />
+    <EmbeddedResource Include="hit3front.png" />
+    <EmbeddedResource Include="ICONFORTHEMOD.png" />
+    <EmbeddedResource Include="Julios.assetbundle" />
+    <EmbeddedResource Include="juliosback.png" />
+    <EmbeddedResource Include="juliosfront.png" />
+    <EmbeddedResource Include="JuliosLocked.png" />
+    <EmbeddedResource Include="JuliosMenu.png" />
+    <EmbeddedResource Include="MendCracks.png" />
+    <EmbeddedResource Include="MenuPlaceholder.png" />
+    <EmbeddedResource Include="ModIconPlaceholder.png" />
+    <EmbeddedResource Include="OverworldPlaceholder.png" />
+    <EmbeddedResource Include="PassivePlaceholder.png" />
+    <EmbeddedResource Include="PickyIcon.png" />
+    <EmbeddedResource Include="ReflectionScars.png" />
+    <EmbeddedResource Include="sammlerjulios.png" />
+    <EmbeddedResource Include="Scarf.png" />
+    <EmbeddedResource Include="scratches.png" />
+    <EmbeddedResource Include="Shards.png" />
+    <EmbeddedResource Include="smalljulios.png" />
+    <EmbeddedResource Include="TemperedIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Album">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\Album.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="BrutalAPI">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\BrutalAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="FMODUnity">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\FMODUnity.dll</HintPath>
+    </Reference>
+    <Reference Include="FMODUnityResonance">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\FMODUnityResonance.dll</HintPath>
+    </Reference>
+    <Reference Include="Marosi.SerializableCollections">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\Marosi.SerializableCollections.dll</HintPath>
+    </Reference>
+    <Reference Include="Marosi.Utility">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\Marosi.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\MonoMod.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="YarnSpinner">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\YarnSpinner.dll</HintPath>
+    </Reference>
+    <Reference Include="YarnSpinner.Compiler">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\YarnSpinner.Compiler.dll</HintPath>
+    </Reference>
+    <Reference Include="YarnSpinner.Unity">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\YarnSpinner.Unity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
